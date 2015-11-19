@@ -1,11 +1,13 @@
 package queue_test
 
-import "github.com/segmentio/go-queue"
-import "github.com/bmizerany/assert"
-import "github.com/bitly/go-nsq"
-import "testing"
-import "bytes"
-import "log"
+import (
+	"bytes"
+	"github.com/bmizerany/assert"
+	"github.com/nsqio/go-nsq"
+	"github.com/segmentio/go-queue"
+	"log"
+	"testing"
+)
 
 func check(err error) {
 	if err != nil {
