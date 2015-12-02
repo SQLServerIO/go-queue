@@ -180,7 +180,7 @@ Output:
 
 ```
 2015/12/02 05:31:06 INF    1 [test/ch] querying nsqlookupd http://:4161/lookup?topic=test
-2015/12/02 05:31:06 INF    1 [test/ch] (core:4150) connecting to nsqd                                                             
+2015/12/02 05:31:06 INF    1 [test/ch] (core:4150) connecting to nsqd                       
 ```
 
 Looking at NSQAdmin, as long as messages are in memory or on disk, an NSQ consumer will 
