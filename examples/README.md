@@ -211,7 +211,7 @@ This is what you will see in NSQAdmin.
 ![nsqproducer-2ndprocess](https://itjumpstart.files.wordpress.com/2015/12/nsqproducer-2ndprocess.png)
 
 We have seen that NSQ reported 40 Messages Processed. From NSQ point of view,
-we have **enqueued** 40 messages all in all although those 20 message are yet to be processed by an NSQ consumer (you can see in NSQAdmin that those messages are still in memory).
+we have **enqueued** 40 messages all in all although those 20 messages are yet to be processed by an NSQ consumer (you can see in NSQAdmin that those messages are still in memory).
 
 So running ```./consumer -msg=20``` again will process those 20 pending messages.
 
