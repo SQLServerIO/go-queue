@@ -96,17 +96,17 @@ To run NSQ producer with 20 messages,
 Output:
 
 ```bash
-2015/12/02 04:50:23 INF    1 (192.168.56.101:4150) connecting to nsqd                                                                 
-2015/12/02 04:50:23 Time took 22.152598ms                                                                                             
-2015/12/02 04:50:23 INF    1 stopping                                                                                                 
-2015/12/02 04:50:23 INF    1 exiting router                                                                                           
-2015/12/02 04:50:23 ERR    1 (192.168.56.101:4150) IO error - EOF                                                                     
-2015/12/02 04:50:23 INF    1 (192.168.56.101:4150) beginning close                                                                    
-2015/12/02 04:50:23 INF    1 (192.168.56.101:4150) readLoop exiting                                                                   
-2015/12/02 04:50:23 INF    1 (192.168.56.101:4150) breaking out of writeLoop                                                          
-2015/12/02 04:50:23 INF    1 (192.168.56.101:4150) writeLoop exiting                                                                  
-2015/12/02 04:50:23 INF    1 (192.168.56.101:4150) finished draining, cleanup exiting                                                 
-2015/12/02 04:50:23 INF    1 (192.168.56.101:4150) clean close complete                                                                                                                            
+2015/12/02 04:50:23 INF    1 (192.168.56.101:4150) connecting to nsqd
+2015/12/02 04:50:23 Time took 22.152598ms
+2015/12/02 04:50:23 INF    1 stopping
+2015/12/02 04:50:23 INF    1 exiting router
+2015/12/02 04:50:23 ERR    1 (192.168.56.101:4150) IO error - EOF
+2015/12/02 04:50:23 INF    1 (192.168.56.101:4150) beginning close
+2015/12/02 04:50:23 INF    1 (192.168.56.101:4150) readLoop exiting
+2015/12/02 04:50:23 INF    1 (192.168.56.101:4150) breaking out of writeLoop
+2015/12/02 04:50:23 INF    1 (192.168.56.101:4150) writeLoop exiting
+2015/12/02 04:50:23 INF    1 (192.168.56.101:4150) finished draining, cleanup exiting 
+2015/12/02 04:50:23 INF    1 (192.168.56.101:4150) clean close complete
 ```
 
 
@@ -179,8 +179,8 @@ Run ```./consumer -msg=20```
 Output:
 
 ```
-2015/12/02 05:31:06 INF    1 [test/ch] querying nsqlookupd http://:4161/lookup?topic=test                                             
-2015/12/02 05:31:06 INF    1 [test/ch] (core:4150) connecting to nsqd                                                                 
+2015/12/02 05:31:06 INF    1 [test/ch] querying nsqlookupd http://:4161/lookup?topic=test
+2015/12/02 05:31:06 INF    1 [test/ch] (core:4150) connecting to nsqd                                                             
 ```
 
 Looking at NSQAdmin, as long as messages are in memory or on disk, an NSQ consumer will 
