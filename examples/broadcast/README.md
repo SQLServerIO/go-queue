@@ -1,5 +1,7 @@
 ## Broadcast Example
 
+You need to understand the concept of [topics and channels](http://blog.charmes.net/2014/10/first-look-at-nsq.html) before you can appreciate NSQ.
+
 Here is the code for broadcast example. You need to run one instance of consumer1 and consumer2 first before running the 
 producer.
 
