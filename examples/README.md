@@ -2,6 +2,8 @@
 
 This post was inspired from [Traun Leyden's example](http://tleyden.github.io/blog/2014/11/12/an-example-of-using-nsq-from-go/) but uses Go client library derived from https://github.com/segmentio/go-queue.
 
+You need to understand the concept of [topics and channels](http://blog.charmes.net/2014/10/first-look-at-nsq.html) before you can appreciate NSQ.
+
 Note: You can choose any folder location of your own choosing. For this guide, we assume some defaults:
 
 - ```/home/nsq``` - location of NSQ binaries
